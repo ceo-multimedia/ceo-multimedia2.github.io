@@ -1,0 +1,212 @@
+/*@media (min-width:650px) {*/
+    
+body,
+.account-details {
+    font-size: 1.05rem;
+    font-weight: 400;
+}
+
+.desktop-header {
+        display: block;
+    }
+    
+/* SECOND NAV */
+    
+    .header-flex {
+        display: none;
+    }
+    
+    .desktop-header {
+        background-color: #ffffff;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        box-shadow: 2px 2px 10px 1px rgba(100, 100, 100, 0.2)
+    }
+    .desktop-header-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .desktop-left {
+        float: left;
+        width: 30%
+    }
+    .desktop-right {
+        float: right;
+        width: 70%;
+    }
+    .company-logo {
+        width: 100%;
+        padding: 0.375rem 0 0 0;
+        margin-left: 2rem;
+    }
+    .company-logo img {
+        margin-left: 2rem;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    .desktop-right a {
+        text-decoration: none;
+        color: #5f646b;
+        border: none;
+        text-align: center;
+        padding: 0 2% 0.3rem 0;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+    .desktop-right a:hover,
+    .desktop-right a:active {
+        color: #f2f2f2;
+        border-bottom: 1px solid #86b615;
+        transition: background-color 200ms linear 100ms;
+        background-color: #86b615;
+        padding: 0.625rem;
+}
+    .desktop-donate-btn {
+        background-color: #f44465;
+        display: inline-block;
+        padding: 0.3rem;
+    }
+    .desktop-donate-btn a {
+        color: #f2f2f2;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    .desktop-donate-btn:hover {
+        background-color: transparent;
+        color: #f44485;
+        border: 1px solid #f44485;
+        transition: background-color 200ms linear 100ms;
+}
+
+    .desktop-donate-btn a:hover {
+        border: none;
+        color: #f44485;
+}
+
+/* MAIN HEADER */
+
+    .main-header {
+        text-align: left;
+    }
+
+.main-header {
+    padding: 3.75rem 0px 2.5rem 4.5rem;
+    height: 77vh;
+    text-align: left;
+}
+.main-header h1 {
+/*    margin-bottom: 16px;*/
+    margin-top: 6.25rem;
+    max-width: 50%;    
+}
+.header-btn {
+    margin: 2rem 0 1rem 0;     
+    }  
+    
+    /* HEADER ENDS */
+    
+
+/* MAIN SECTION */
+    .main-section {
+        padding: 2rem 4.5rem;
+        letter-spacing: 0.06875rem;
+    }
+    .identity, 
+    .donate, 
+    .contribute, 
+    .gallery-container, 
+    .subscribe {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+/*        letter-spacing: 0.06875rem;    */
+    }
+        
+  .gallery-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;  
+}
+.flex-item1,
+.flex-item2,
+.flex-item3 {
+    width: 33.333333333%;
+    float: left;
+}
+
+.gallery-container img {
+    width: 100%;
+    padding-bottom: 0;
+    max-width: 400px;
+    border-radius: 30px 0;
+    border: 4px solid rgba(230, 230, 230, 0.9);
+}
+.gallery-text {
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+ 
+.contribute-box {
+    background: linear-gradient(rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.7)), url(../img/group.jpg) no-repeat fixed 0px 0px/cover;
+    padding: 1.875rem 0;
+    height: 31.25rem;
+}
+.volunteer {
+    margin: 0 15%;
+    background: #ffffff;
+    color: #5f646b;
+    box-shadow: 1px 1px 20px 1px #dddddd;
+}
+.apply-now:hover {
+    color: #333;
+}
+
+/* Video - Testimonial */
+.video-container {
+    background-color: #f6f6f6;    
+}    
+.video {
+        margin: auto;
+        padding: 0.3125rem;
+}
+
+/* Responsiveness for all pages */
+.res-pages {
+    margin: 4.5rem;
+}
+.res-pages p{
+    line-height: 2rem;
+    text-align: justify;
+}
+.res-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+/* Contact 2 column */
+.contact-flex {
+    display: flex;
+}
+.item1 {
+    width: 50%;
+    justify-content: space-between;
+    margin: 0 2rem;    
+}
+.item1 p {
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+.contact-hr {
+    display: inherit;
+}
+
+
+    
+
+}
+

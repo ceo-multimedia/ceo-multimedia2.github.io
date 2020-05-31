@@ -1,0 +1,87 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+/* GLOBAL ELEMENTS */
+
+
+/* BOX MODEL FIX */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+
+
+
+body {
+    background-color: #f4f3f8;  /* GREY COLOR */
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #5f646b;
+    font-weight: 300;
+    
+}
+
+h1 {
+    font-size: 2.1875rem;   /* 35 px */
+    color: #f2f2f2;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+h2 {
+   font-size: 1.75rem; /* 28px */
+   text-align: center;
+    margin-bottom: 0.5rem; /* 8px */
+    color: 23262a;
+    font-weight: 400;
+}
+h3 {
+    font-size:  1rem; /* 12px */
+    text-align: center;
+    margin-bottom: 1.5rem; /* 24px */
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+h2,
+a {
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+/*    text-align: center;*/
+    padding-bottom: 0.25rem;
+    font-weight: 300;
+    transition: background-color 200ms linear 100ms;
+}
+
+a:hover,
+a:active{
+    color: #86b615;
+    font-weight: 700;
+}
+
+
+hr {
+  margin: 0 1.5rem;
+  border-color: #f2f2f2;
+}
+
+/* GLOBAL ELEMENTS END HERE */
+

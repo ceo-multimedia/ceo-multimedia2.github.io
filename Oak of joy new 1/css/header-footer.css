@@ -1,0 +1,278 @@
+/* NAVY BAR SECTION */
+
+.header-flex {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 0;
+    padding-left: 0.625rem;
+    max-height: 30%;
+    box-shadow: 1px 1px 20px 2px rgba(1, 1, 1, 0.3);
+    vertical-align: middle;
+}
+
+.flex-left {
+    width: 50%;
+    padding: 0px 0.3125rem;
+    color: #f2f2f2;
+    vertical-align: middle;
+    padding-top: 0.3125rem;
+}
+
+.flex-mid {
+    width: 32%;
+    padding-top: 0.125rem;
+    padding-bottom: 0.25rem;
+
+}
+.flex-right {
+    width: 15%;
+    margin: 0;
+    padding-top: 0.625rem;
+    
+}
+.header-link a {
+    text-decoration: none;
+    color: #f2f2f2;
+    border-bottom: 2px solid #86b615;
+    padding-bottom: 0.25rem;
+}
+
+.company-logo img{
+    width: 100%;
+    max-width: 200px;
+    float: left;
+    margin-right: 0.625rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.donate-btn {
+    padding: 0.5rem 1rem;  
+}
+
+.btn {
+    background: #f44465;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 200ms linear 100ms;
+}
+.btn:hover,
+.btn:active {
+    background-color: transparent;
+    color: #f44465;
+    border: 1px solid #f44465;
+    outline: none;
+}
+
+/* FIRST NAV */
+
+.desktop-header {
+        display: none;
+    }
+    .contact-nav {
+        background-color: #333333;
+        margin: 0;
+        text-align: center;
+    }
+    .contact-nav a {
+        text-decoration: none;
+        color: #fff;
+        border: none;
+        text-align: center;
+        padding: 0 0.4rem 0 0.4rem;
+        font-size: 0.5rem;
+        font-weight: 700;
+        
+    }
+    .contact-nav li {
+        display: inline-block;
+        padding: 0 0.3125rem 0 0;
+        font-size: 0.6rem;
+        color: #eee;
+    }
+    .contact-nav ul {
+        margin: 0 0 0 0;
+    }
+    .join-us a:hover {
+        color: #f44485;
+        transition: background-color 200ms linear 100ms;
+    }
+
+/* DROP DOWN ICON - HAMBURGER */
+.flaticon-menu-button {
+    color: #333333;
+    font-weight: 700;
+}
+
+.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 35%;
+    right: 0;
+    top: 100%;
+    bottom: 40%;
+    background: rgba(250, 250, 250, 0.95);
+    min-width: 200px;
+    z-index: 1;
+    height: 31.25rem;
+}
+
+.dropdown-content a {
+    color: #23262a;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    display: block;
+    font-size: 0.875rem;
+    border-bottom: 0.5px solid #23262a;
+    text-transform: uppercase;
+}
+
+.dropdown-content a:hover {
+    background-color: #f4f3f8;
+    font-weight: 700;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* DROP DOWN ENDS HERE */J
+
+/* HEADER BUTTONS */
+
+.heaeder-btn-container {
+}
+
+.header-btn {
+    background-color: #86b615;
+    color: #f2f2f2;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0.7rem 1rem 0.7rem 0rem;
+    margin-bottom: 1rem;
+    transition: background-color 200ms linear 100ms;
+    
+}
+
+.header-btn:hover,
+.header-btn:active {
+    background-color: transparent;
+    color: #86b615;
+    border: 1px solid #86b615;
+    outline: none;
+}
+
+.flaticon-two-men:hover {
+    color: #f2f2f2;
+}
+
+.icon-font{
+    font-weight: 100;
+    vertical-align: middle;
+}
+.header-link {
+    font-size: 0.875rem;
+}
+/* HEADER BUTTONS ENDS HERE */
+
+/* HEADER */
+
+.main-header {
+    text-align: center;
+    padding: 0.3125rem 1.25rem 2.5rem 1.25rem;
+    min-height: 330px;
+    background: linear-gradient(rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.3)), url(../img/child4.jpeg) no-repeat 0px 0px/cover;
+}
+.main-header h1 {
+    color: #f2f2f2;
+    margin-bottom: 1rem;
+    margin-top: 6.25rem;
+    font-weight: 400;
+    
+}
+.main-header h1 ~ p {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    color: #f2f2f2;
+}
+.main-header p:nth-child(3) {
+    font-size: 0.875em;  /* 14px */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER ENDS HERE */
+
+/* ------------------------------------------------------------- */
+
+/* FOOTER STARTS HERE */
+
+.footer-bar {
+    background-color: #333333;
+    color: #dddddd;
+    margin-top: 1rem;
+    padding: 2rem 2rem 0.25rem 2rem;
+    line-height: 1.5rem;
+}
+.footer-bar p{
+    font-weight: 300;
+}
+
+.follow-us {
+    text-transform: uppercase;
+}
+
+.flaticon-black-envelope-email-symbol:hover,
+.flaticon-youtube-logo:hover {
+        color: #f44465; 
+    
+}
+
+.flaticon-facebook-logo:hover {
+    color: #0f2f84;
+}
+.flaticon-twitter-logo-on-black-background:hover {
+    color: aqua;
+}
+
+.contact-info,
+.end-text,
+.copyright {
+    font-size: 0.875rem;
+    text-align: left;
+    
+}
+
+.contact-info {
+    margin: 1.5rem 0;
+}
+.end-text {
+    margin-bottom: 0.5rem;
+}
+.end-text2 {
+    font-size: 0.625rem;
+    margin-top: 0.25rem;
+    text-align: left;
+}
+
+.copyright {
+    font-size: 0.625rem;
+    text-align: center
+}

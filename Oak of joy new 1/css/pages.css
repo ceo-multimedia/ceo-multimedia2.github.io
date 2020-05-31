@@ -1,0 +1,108 @@
+/* GALLERY PAGE NUMBER */
+.page-numbers p {
+    
+    color: #23262A;
+    font-weight: 300;
+    display: inline-block;
+    padding: 0 1rem;
+    margin-top: 0;
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+.page-numbers p:hover,
+.page-numbers p:active {
+    font-weight: 300;
+    color: #86b615;
+}
+
+
+/* CONTACT US PAGE */
+
+.contact-page p {
+    padding: 0 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.item1 p {
+    padding-left: 2rem;
+}
+.contact-hr {
+    display: none;
+}
+.contact-details {
+    margin-bottom: 3rem;
+}
+.form-container-main {
+    margin: 2rem 0;    
+}
+fieldset {
+    border: none;
+}
+fieldset legend {
+    margin-bottom: 1rem;
+}
+.form-container {
+    padding: 0.625rem 2rem; 
+}
+
+.form {
+    padding: 0.375rem 20% 0.375rem 1rem;
+    border: 1px solid transparent;
+    margin: 0.87em 0;
+    box-shadow: 2px 2px 5px 5px rgba(210, 200, 200, 0.1);
+    text-align: left;
+    outline: none;
+    
+}
+.form:hover,
+.form:active {
+    border: 1px solid #86b615;
+    background: #f4f3f8;
+    color: #333333;
+    transition: background-color 200ms linear 100ms;
+}
+
+.message-form {
+    padding-bottom: 12.5rem;
+    background: #ffffff;
+    border: 1px solid #86b615;
+    outline: none;
+}
+
+.send-btn {
+    background-color: #86b615;
+    margin-top: 1.5rem;
+}
+.send-btn:hover,
+.send-btn:active {
+    background-color: transparent;
+    color: #86b615;
+    border: 1px solid #86b615;
+    outline: none;
+    cursor: pointer;
+}
+
+/* CONTACT US STOPS HERE */
+
+
+/* VOLUNTEER STARTS */
+
+.large-text {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.volunteer-text {
+    line-height: 1.5rem;
+    padding: 0 1.5rem;
+}
+.volunteer-form fieldset {
+    padding: 0.625rem 0;
+}
+
+/* VIDEO PAGE STARTS */
+.video-text {
+    padding: 0 2rem;
+    line-height: 1.5rem;
+}
